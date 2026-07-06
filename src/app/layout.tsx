@@ -20,7 +20,7 @@ const sora = Sora({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://jhnxncreative.vercel.app"),
+  metadataBase: new URL("https://jhnxncreativestudio.vercel.app"),
 
   title: {
     default: "JHNXN Creative Studio",
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
   authors: [
     {
       name: "JHNXN Creative Studio",
-      url: "https://jhnxncreative.vercel.app",
+      url: "https://jhnxncreativestudio.vercel.app",
     },
   ],
 
@@ -67,9 +67,9 @@ export const metadata: Metadata = {
   },
 
   icons: {
-    icon: "/icon.png",
-    shortcut: "/icon.png",
-    apple: "/icon.png",
+    icon: "/favicon.ico",
+    shortcut: "/favicon.ico",
+    apple: "/favicon.ico",
   },
 
   openGraph: {
@@ -77,7 +77,7 @@ export const metadata: Metadata = {
     description:
       "Premium websites, digital products and creative experiences built with creativity, strategy and cutting-edge technology.",
 
-    url: "https://jhnxncreative.vercel.app",
+    url: "https://jhnxncreativestudio.vercel.app",
 
     siteName: "JHNXN Creative Studio",
 
