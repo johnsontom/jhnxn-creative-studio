@@ -3,6 +3,7 @@
 import HeroVisual from "./HeroVisual";
 import { motion } from "motion/react";
 import MobileHeroVisual from "./MobileHeroVisual";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -90,21 +91,58 @@ sm:text-lg leading-8 text-zinc-400">
           </p>
 
           <div className="mt-14 flex flex-col gap-4 sm:flex-row">
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.96 }}
-              className="flex h-14 min-w-[180px] items-center justify-center rounded-full bg-violet-600 px-8 text-base font-semibold text-white transition duration-300 hover:bg-violet-500"
-            >
-              Start Project
-            </motion.button>
+            <Link href="#contact">
+  <motion.div
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.96 }}
+    className="
+      flex
+      h-14
+      min-w-[180px]
+      items-center
+      justify-center
+      rounded-full
+      bg-violet-600
+      px-8
+      text-base
+      font-semibold
+      text-white
+      transition
+      duration-300
+      hover:bg-violet-500
+    "
+  >
+    Start Project
+  </motion.div>
+</Link>
 
-            <motion.button
-              whileHover={{ scale: 1.05 }}
-              whileTap={{ scale: 0.96 }}
-              className="flex h-14 min-w-[180px] items-center justify-center rounded-full border border-white/10 bg-white/5 px-8 text-base font-semibold text-white backdrop-blur-xl transition duration-300 hover:bg-white/10"
-            >
-              View Portfolio
-            </motion.button>
+            <Link href="#portfolio">
+  <motion.div
+    whileHover={{ scale: 1.05 }}
+    whileTap={{ scale: 0.96 }}
+    className="
+      flex
+      h-14
+      min-w-[180px]
+      items-center
+      justify-center
+      rounded-full
+      border
+      border-white/10
+      bg-white/5
+      px-8
+      text-base
+      font-semibold
+      text-white
+      backdrop-blur-xl
+      transition
+      duration-300
+      hover:bg-white/10
+    "
+  >
+    View Portfolio
+  </motion.div>
+</Link>
           </div>
         </div>
 

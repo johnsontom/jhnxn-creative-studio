@@ -180,3 +180,7 @@ html {
     opacity: 0.08;
   }
 }
+
+html {
+  scroll-behavior: smooth;
+}
