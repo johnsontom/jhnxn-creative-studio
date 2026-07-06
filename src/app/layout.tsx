@@ -21,6 +21,11 @@ const sora = Sora({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://jhnxncreativestudio.vercel.app"),
+  verification: {
+  google: "vCUvYhk0pqJsCMSeW5EJ_k_xg2FOubATASIRV4_YHC0",
+},
+
+
 
   title: {
     default: "JHNXN Creative Studio",
