@@ -49,11 +49,11 @@
   --container-width: 1280px;
 }
 
-* {
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 html {
   scroll-behavior: smooth;
@@ -141,4 +141,42 @@ img {
 
 ::-webkit-scrollbar-thumb:hover {
   background: var(--secondary);
+}
+
+
+
+@keyframes navbarFloat {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.navbar-float {
+  animation: navbarFloat 6s ease-in-out infinite;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes videoPulse {
+  0% {
+    opacity: 0.08;
+  }
+
+  50% {
+    opacity: 0.14;
+  }
+
+  100% {
+    opacity: 0.08;
+  }
 }
