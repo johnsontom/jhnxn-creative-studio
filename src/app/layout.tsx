@@ -25,8 +25,6 @@ export const metadata: Metadata = {
   google: "vCUvYhk0pqJsCMSeW5EJ_k_xg2FOubATASIRV4_YHC0",
 },
 
-
-
   title: {
     default: "JHNXN Creative Studio",
     template: "%s | JHNXN Creative Studio",

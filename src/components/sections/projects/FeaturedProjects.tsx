@@ -5,27 +5,8 @@ export default function FeaturedProjects() {
   return (
     <section
       id="portfolio"
-      className="relative overflow-hidden bg-[#09090B] py-40"
+      className="relative overflow-hidden bg-gradient-to-b from-[#09090B] via-[#09090B]/70 to-[#09090B] py-40"
     >
-      {/* Coding Video Background */}
-
-      <video
-        autoPlay
-        muted
-        loop
-        playsInline
-        className="absolute inset-0 z-0 h-full w-full object-cover"
-      >
-        <source
-          src="/videos/coding.mp4"
-          type="video/mp4"
-        />
-      </video>
-
-      {/* Dark Overlay */}
-
-      <div className="absolute inset-0 -z-20 bg-[#09090B]/55" />
-
       {/* Purple Atmosphere */}
 
       <div

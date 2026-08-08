@@ -7,19 +7,23 @@ import Process from "@/components/sections/process/Process";
 import Contact from "@/components/sections/contact/Contact";
 import Footer from "@/components/layout/Footer";
 import ScrollProgress from "@/components/ui/ScrollProgress";
+import SceneClient from "@/components/three/SceneClient";
 
 export default function Home() {
   return (
     <>
+      <SceneClient />
       <ScrollProgress />
       <Navbar />
-      <Hero />
-       <Services />
-       <FeaturedProjects />
+      <div className="relative z-10">
+        <Hero />
+        <Services />
+        <FeaturedProjects />
         <About />
-          <Process />
-           <Contact />
-             <Footer />
+        <Process />
+        <Contact />
+        <Footer />
+      </div>
     </>
   );
 }

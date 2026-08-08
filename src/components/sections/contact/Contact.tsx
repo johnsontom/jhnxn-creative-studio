@@ -15,7 +15,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="bg-[#09090B] py-40"
+      className="bg-gradient-to-b from-[#09090B] via-[#09090B]/70 to-[#09090B] py-40"
     >
       <div className="mx-auto grid max-w-[1400px] gap-20 px-8 lg:grid-cols-2 xl:px-20">
 

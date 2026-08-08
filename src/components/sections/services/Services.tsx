@@ -5,7 +5,7 @@ export default function Services() {
   return (
     <section
       id="services"
-      className="bg-[#09090B] py-40"
+      className="bg-gradient-to-b from-[#09090B] via-[#09090B]/85 to-[#09090B] py-40"
     >
       <div className="mx-auto max-w-[1400px] px-20">
         <FadeIn>

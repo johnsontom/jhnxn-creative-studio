@@ -1,30 +1,13 @@
 "use client";
 
-import HeroVisual from "./HeroVisual";
 import { motion } from "motion/react";
-import MobileHeroVisual from "./MobileHeroVisual";
 import Link from "next/link";
 
 export default function Hero() {
   return (
-    <section className="relative flex min-h-screen justify-center overflow-hidden bg-[#09090B]">
+    <section className="relative flex min-h-screen justify-center overflow-hidden">
 
-      {/* Coding Video Background */}
-      <video
-  autoPlay
-  muted
-  loop
-  playsInline
-  controls
-  className="absolute inset-0 z-0 h-full w-full object-cover"
->
-  <source src="/videos/code.mp4" type="video/mp4" />
-</video>
-
-      {/* Dark Overlay */}
-      <div className="absolute inset-0 bg-[#09090B]/75" />
-
-      {/* Purple Atmosphere */}
+      {/* Soft violet atmosphere — a scrim over the 3D world, not an occluder */}
       <div
         className="
           absolute
@@ -35,7 +18,10 @@ export default function Hero() {
           to-fuchsia-600/15
         "
       />
-      
+
+      {/* Left-side legibility scrim so headline text stays readable over the 3D */}
+      <div className="absolute inset-0 bg-gradient-to-r from-[#09090B]/85 via-[#09090B]/40 to-transparent lg:to-[#09090B]/0" />
+
 
       {/* Hero Content */}
     <div
@@ -146,18 +132,8 @@ sm:text-lg leading-8 text-zinc-400">
           </div>
         </div>
 
-        {/* RIGHT */}
-        {/* Desktop */}
-
-<div className="hidden items-center justify-end lg:flex">
-  <HeroVisual />
-</div>
-
-{/* Mobile */}
-
-<div className="flex justify-center lg:hidden">
-  <MobileHeroVisual />
-</div>
+        {/* RIGHT — the 3D crystal shows through here (see SceneClient) */}
+        <div className="hidden lg:block" aria-hidden="true" />
       </div>
     </section>
   );

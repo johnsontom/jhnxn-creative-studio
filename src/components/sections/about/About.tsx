@@ -15,7 +15,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="relative overflow-hidden bg-[#09090B] py-24 lg:py-40"
+      className="relative overflow-hidden bg-gradient-to-b from-[#09090B] via-[#09090B]/85 to-[#09090B] py-24 lg:py-40"
     >
       <div className="mx-auto grid max-w-[1400px] grid-cols-1 items-center gap-20 px-6 lg:grid-cols-2 lg:px-20">
 
