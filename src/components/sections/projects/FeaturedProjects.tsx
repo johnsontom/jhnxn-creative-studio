@@ -71,6 +71,21 @@ export default function FeaturedProjects() {
             />
           </FadeIn>
 
+          <FadeIn delay={0.45}>
+            <ProjectCard
+              title="AJ Studio"
+              description="An architecture and spatial design studio website built around an immersive, editorial layout that showcases projects, process and studio identity."
+              image="/images/ajstudiong.png"
+              technologies={[
+                "React",
+                "Next.js",
+                "Three.js",
+                "Tailwind CSS",
+              ]}
+              liveUrl="https://ajstudiong.vercel.app"
+            />
+          </FadeIn>
+
         </div>
 
       </div>
