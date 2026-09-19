@@ -77,10 +77,10 @@ export default function FeaturedProjects() {
               description="An architecture and spatial design studio website built around an immersive, editorial layout that showcases projects, process and studio identity."
               image="/images/ajstudiong.png"
               technologies={[
-                "React",
-                "Next.js",
+                "Vite",
                 "Three.js",
-                "Tailwind CSS",
+                "Supabase",
+                "JavaScript",
               ]}
               liveUrl="https://ajstudiong.vercel.app"
             />
