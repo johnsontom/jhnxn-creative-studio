@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://jhnxncreative.vercel.app/sitemap.xml",
+    sitemap: "https://jhnxncreativestudio.vercel.app/sitemap.xml",
   };
 }

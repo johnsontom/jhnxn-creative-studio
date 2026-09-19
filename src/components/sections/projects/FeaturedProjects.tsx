@@ -75,7 +75,7 @@ export default function FeaturedProjects() {
             <ProjectCard
               title="AJ Studio"
               description="An architecture and spatial design studio website built around an immersive, editorial layout that showcases projects, process and studio identity."
-              image="/images/ajstudiong.png"
+              image="/images/ajstudiong.webp"
               technologies={[
                 "Vite",
                 "Three.js",
